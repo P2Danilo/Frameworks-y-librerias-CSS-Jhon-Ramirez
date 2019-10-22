@@ -1,0 +1,114 @@
+.turismo-body{
+  background-image: url(../img/beach.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav{
+  min-height: 30%;
+}
+
+.contenedor-turismo{
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.logo{
+  max-width: 100%;
+  float: left;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+@media (max-width:600px){
+  .logo{
+    max-width: 60% !important;
+  }
+  .slogan{
+    margin-top: 45px !important;
+  }
+  nav{
+    min-height: 50%;
+  }
+ .btn{
+   margin: 5px;
+  }
+  .autor{
+    padding: 10px;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+  }
+  button{
+    margin-right: 50% !important;
+    transform: translateX(50%);
+  }
+  .img-publicacion{
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+}
+
+.slogan{
+  margin-top: 5rem;
+  color: #0d47a1;
+  font-style: italic;
+}
+
+.botones-turismo{
+  margin-top: 1rem;
+}
+
+a{
+  margin-right: 1rem;
+}
+
+.social{
+  margin-top: 15.5rem;
+}
+
+.icon-social{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  padding: 0px;
+}
+
+.img-album{
+  width: 100%;
+}
+ .publicacion1, .comentarios{
+   background-color: rgba(255, 255, 255, 0.7);
+   text-align: justify;
+ }
+.img-publicacion{
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.chip{
+  margin: 1%;
+}
+
+.infoautor{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-autor{
+  text-align: center !important;
+  margin-top: 20px;
+}
+.circle{
+  width: 60%;
+}
+
+.comentarios, .input{
+  color: white !important;
+  padding: 3% !important;
+}

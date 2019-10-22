@@ -1,0 +1,73 @@
+
+body{
+  background-color: rgba(233, 238, 243, 0.5);
+}
+
+.logo-blog{
+  margin: 2%;
+  width: 250px;
+}
+
+.navbar{
+background: rgba(189, 212, 234, 0.95);
+min-height: 170px;
+border: none;
+}
+
+.menu{
+  background-color: rgba(70, 127, 182, 0.5);
+  color: white;
+  font-size: 1.6rem;
+}
+
+.redes-sociales{
+  margin-top: 4.5%;
+  margin-left: 15%;
+  text-align: right;
+}
+
+@media (max-width:990px){
+  .redes-sociales{
+    margin-left: 50%;
+  }
+
+  .barra-busqueda{
+    display: none;
+  }
+}
+
+@media (max-width:768px){
+  .redes-sociales{
+    margin-top:-10%;
+  }
+
+  .container-fluid{
+    margin-top: 410px !important;
+  }
+}
+
+.blog{
+  margin: 0.5%;
+  width: 100px;
+}
+
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+
+.container-fluid{
+  margin-top: 180px;
+}
+
+.img-freddie{
+  width: 90%;
+  margin: 10%;
+}
+
+.img-orquesta{
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:20%;
+}

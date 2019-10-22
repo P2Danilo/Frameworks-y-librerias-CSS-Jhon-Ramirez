@@ -1,0 +1,84 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.contenedor{
+  background: rgba(169, 177, 185, 0.6);
+  padding-top: 2%;
+  color: white;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .contenedor{
+    background: rgba(169, 177, 185, 0.1);
+    color: #009a72;
+  }
+}
+h1{
+  text-align: left;
+}
+h4{
+  text-align: right;
+}
+
+@media screen and (min-width: 64em) {
+  .titulo{
+    border-right: 1px solid white;
+  }
+}
+
+ .social{
+  margin-top: 5%;
+ }
+
+.step{
+  font-size: 36px;
+  color: white;
+}
+
+hr{
+  border: 0.5px solid white;
+}
+
+.search, .post{
+  background: rgba(255, 255, 255, 0.5);
+  color: #009a72;
+}
+
+.fi-magnifying-glass{
+  font-size: 20px;
+}
+
+.comment, .fi-pencil{
+  margin-top: -15px;
+  font-size: 13px !important;
+}
+
+h5, ul{
+  list-style: none;
+  color: #009a72;
+  text-align: left !important;
+}
+
+.thumbnail{
+  min-height: 80px;
+}
+
+#publicacion, .date{
+  color: black !important;
+  font-style: bold;
+}
+
+.comentarios{
+  border: 1px solid #009a72;;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+.man{
+  margin: 5% auto;
+  max-width: 60%;
+}
